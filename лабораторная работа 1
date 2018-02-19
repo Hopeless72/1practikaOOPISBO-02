@@ -1,0 +1,29 @@
+#include <iostream>
+#include <cstdlib>
+#include <string.h>
+#include <math.h>
+using namespace std;
+
+int main()
+{    
+int a,b;    
+float f;    
+string name;    
+cout << "Enter your name: " << endl;    
+cin>>name;   
+cout<<"Your name is : "<<name<<endl;   
+cout<<endl;    
+cout<<"Enter number a: "<<endl;    
+cin>>a;  
+cout<<"Enter number b: "<<endl;    
+cin>>b;    
+cout<<"Sum = "<<(a+b)<<endl;   
+cout<<"Difference = "<<(a-b)<<endl;  
+if(b!=0)
+  {cout<<"Quotient a/b = "<<f=(a/b)<<endl;}
+  if(a!=0)   
+  {cout<<"Quotient b/a = "<<f=(b/a)<<endl;}    
+  cout<<"Multiplication = "<<(a*b)<<endl;   
+  system("pause");   
+  return 0;
+  }
